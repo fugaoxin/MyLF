@@ -1,0 +1,65 @@
+/* 
+  Language.strings
+  LukFook
+
+  Created by lin on 16/1/26.
+  Copyright © 2016年 JimmyLin. All rights reserved.
+*/
+
+"今日饰金价" = "Today's\nJewellery Gold Price";
+
+"tabBarButton1" = "Calculator";
+"tabBarButton2" = "Collection";
+"tabBarButton3" = "Shop Info";
+"tabBarButton4" = "About Us";
+
+"bottomLabel1" = "The above prices are for reference only.";
+"bottomLabel2" = "Last updated:";
+"bottomLabel3" = "The above gold prices are applicable to";
+"bottomLabel3.1" = "HK shops only and remain unchanged";
+"bottomLabel4" = "since";
+"bottomLabel4.1" = "prices are for reference only,";
+"bottomLabel5" = "please contact our shops for details.";
+"起未有再变动" = "起未有再變動";
+
+"sellLabel" = "Sell (HKD)";
+"buyLabel" = "Buy (HKD)";
+"unitLabel" = "Unit (Tael)";
+
+// 产品名称
+"nameLabel1" = "9999/999 Gold";
+"nameLabel2" = "9999 Gold Price (gram)";
+"nameLabel3" = "Platinum";
+"nameLabel4" = "Platinum Price (gram)";
+"nameLabel5" = "9999 Gold Piece";
+"nameLabel6" = "RMB Exchange Rate";
+
+// 商店信息
+"shopName" = "Shop Name";
+"shopPhone" = "Tel";
+"shopAddress" = "Address";
+"shopTime" = "Opening Hour";
+
+// 饰金计算机页面的 label 显示的文字
+"calculatorName" = "9999/999 Gold Price";
+"calculatorWeight" = "Product Weight";
+"calculatorCost" = "Labor Charge";
+"calculatorCommission" = "Commission";
+"calculatorTotalPrice" = "Total Price";
+"calculatorUnit" = "Tael";
+
+// 按钮
+"backItem" = "Back";
+"showAll" = "Show all";
+"language" = "Language";
+
+// 网页标题
+"webViewTitle" = "Lukfook Jewellery｜Lukfook Jewellery Official Website";
+
+// 正在加载
+"loading" = "Loading...";
+
+// 没有网络
+"NoInternetConnection" = "No Internet Connection,please try again later";
+
+"aboutUsLabel" = "Established in 1991, Luk Fook Holdings (International) Limited (”Lukfook” or the “Group”) is one of the leading jewellery retailers in Hong Kong and Mainland China. The Group was listed on Main Board of The Stock Exchange of Hong Kong Limited in May 1997, with stock code “00590.HK”. Lukfook was founded by a group of experienced jewellery specialists who possess unique market sense and passion to strive for excellence. Throughout the years, its achievements have been reflected by the outstanding performance in merchandising, sales, administration, financial and marketing aspects.\n\nThe Group principally engages in the sourcing, designing, wholesaling, trademark licensing and retailing of a variety of gold and platinum jewellery and gem-set jewellery products, with a total of over 1,400 shops in Mainland China, Hong Kong, Macau, Singapore, Korea, the United States, Canada and Australia. The Group will continue to identify new business opportunities  in the international market in response to its corporate vision, “Brand of Hong Kong, Sparkling the World”.\n\nSince the establishment of the first shop in Mainland China in 1994, the total number of shops located in Mainland China has rapidly grown to over 1,330 by now. While the Group has installed many shops in the first and second tier cities including Beijing, Shanghai and Guangzhou, it is also keen on branching out in promising third and fourth tier cities for further expansion in Mainland China.\n\nIn order to further enhance cost effectiveness and production efficiency, the Group has established its own jewellery processing plant.  In 2003, the Group set up a large-scale jewellery processing plant in Nansha, Guangzhou, with a total site area of over 350,000 square feet. The total plant production capacity will double upon full operation. Having a wholly owned jewellery processing plant enables the Group to offer stable good supply and carry out quality control effectively. The expanded production scale will also help the Group cope with its enlarging distribution network and provide stable jewellery supply to its jewellery shops. The jewellery processing plant attained ISO 9001 Quality Management Systems - Requirements and ISO 14001 Environmental Management System certifications in 2008 and 2009 respectively for its international level quality assurance system and professionally recognized product quality standard.\n\nThe Group exercises strict quality control and is meticulous from raw materials procurement, production to after-sales services. In 1996, China Gems Laboratory Limited, a wholly-owned subsidiary of the Group, was established for the purpose of providing servicesincluding authentication and grading of diamonds, authentication of jadeite jade and coloured gemstones, and quality assessment for jewellery. In 2005, CGL became one of the first accredited laboratories in Hong Kong that conformed to HKAS ISO/IEC 17025 in Jadeite Jade Testing. In 2009, it obtained the accreditation in Diamond Testing and Grading. In 2015, CGL obtained ISO 11426 accreditation in Gold Testing, it is now authorized to issue internationally recognized gold test reports and it is the only laboratory in Hong Kong that meets the requirements of three HKAS ISO/IEC 17025 accreditations in Jadeite Jade Testing, Diamond Testing and Gold Testing. Besides, CGL is the first laboratory in Hong Kong to obtain GB/T9288 accreditation in Gold Testing. In addition, CGL meets the ISO 9001:2008 Quality Management Systems Requirements, affirming its international level quality assurance system and professionally recognised product quality standard.";

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="MJNgaiHK-Medium.ttf">
+            <string>MJNgaiHK-Medium</string>
+            <string>MJNgaiHK-Medium</string>
+            <string>MJNgaiHK-Medium</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LanguageSelectedViewController">
+            <connections>
+                <outlet property="textCN" destination="Ie8-nF-KAS" id="A5v-xl-j81"/>
+                <outlet property="textEN" destination="qDL-xG-vwN" id="0AS-Wl-C89"/>
+                <outlet property="textHK" destination="MHZ-zR-gxc" id="dQl-Lb-t2R"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_newBg" translatesAutoresizingMaskIntoConstraints="NO" id="Lrf-ab-Ed3">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDL-xG-vwN">
+                    <rect key="frame" x="241" y="436" width="39" height="32"/>
+                    <fontDescription key="fontDescription" name="MJNgaiHK-Medium" family="MJNgaiHK" pointSize="19"/>
+                    <state key="normal" title="ENG">
+                        <color key="titleColor" red="0.45564657450000001" green="0.25148272510000003" blue="0.081643097100000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="ENGButtonAction:" destination="-1" eventType="touchUpInside" id="hxm-Ay-67s"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ie8-nF-KAS">
+                    <rect key="frame" x="132" y="436" width="57" height="32"/>
+                    <fontDescription key="fontDescription" name="MJNgaiHK-Medium" family="MJNgaiHK" pointSize="19"/>
+                    <state key="normal" title="简体版">
+                        <color key="titleColor" red="0.45564657450000001" green="0.25148272510000003" blue="0.081643097100000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="SimplifiedButtonAction:" destination="-1" eventType="touchUpInside" id="8ro-qx-dJM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHZ-zR-gxc">
+                    <rect key="frame" x="40" y="436" width="57" height="32"/>
+                    <fontDescription key="fontDescription" name="MJNgaiHK-Medium" family="MJNgaiHK" pointSize="19"/>
+                    <state key="normal" title="繁體版">
+                        <color key="titleColor" red="0.45564657450000001" green="0.25148272510000003" blue="0.081643097100000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="TraditionalButtonAction:" destination="-1" eventType="touchUpInside" id="YMd-0J-BLh"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="p1_menu_bg" translatesAutoresizingMaskIntoConstraints="NO" id="hn9-Gm-0TP" userLabel="bottomV">
+                    <rect key="frame" x="0.0" y="536" width="320" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="CDk-pC-MBY"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="common_header_bg2" translatesAutoresizingMaskIntoConstraints="NO" id="lKi-bJ-rtd" userLabel="topV">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="5El-Vx-TaK"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="lKi-bJ-rtd" secondAttribute="trailing" id="0zI-0n-Msy"/>
+                <constraint firstItem="Lrf-ab-Ed3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="8sN-vH-arm"/>
+                <constraint firstAttribute="bottom" secondItem="Lrf-ab-Ed3" secondAttribute="bottom" id="A6c-O5-8CL"/>
+                <constraint firstAttribute="trailing" secondItem="qDL-xG-vwN" secondAttribute="trailing" constant="40" id="BCu-5Q-yk3"/>
+                <constraint firstItem="hn9-Gm-0TP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BU0-Wu-cCS"/>
+                <constraint firstItem="MHZ-zR-gxc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="D9I-xa-vd7"/>
+                <constraint firstItem="Ie8-nF-KAS" firstAttribute="centerY" secondItem="MHZ-zR-gxc" secondAttribute="centerY" id="EbT-Df-pHJ"/>
+                <constraint firstAttribute="trailing" secondItem="hn9-Gm-0TP" secondAttribute="trailing" id="SOe-FA-j9d"/>
+                <constraint firstItem="Lrf-ab-Ed3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cfN-qQ-UQm"/>
+                <constraint firstItem="lKi-bJ-rtd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="gKY-4q-Kmh"/>
+                <constraint firstItem="Ie8-nF-KAS" firstAttribute="centerX" secondItem="Lrf-ab-Ed3" secondAttribute="centerX" id="gZR-QK-c3t"/>
+                <constraint firstAttribute="trailing" secondItem="Lrf-ab-Ed3" secondAttribute="trailing" id="iaE-Ao-vXk"/>
+                <constraint firstAttribute="bottom" secondItem="hn9-Gm-0TP" secondAttribute="bottom" id="ivU-JM-eka"/>
+                <constraint firstItem="qDL-xG-vwN" firstAttribute="centerY" secondItem="MHZ-zR-gxc" secondAttribute="centerY" id="raz-qO-Ppl"/>
+                <constraint firstAttribute="bottom" secondItem="MHZ-zR-gxc" secondAttribute="bottom" constant="100" id="tjj-jy-ORG"/>
+                <constraint firstItem="lKi-bJ-rtd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ub5-Tz-pPV"/>
+            </constraints>
+            <point key="canvasLocation" x="310" y="422"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="common_header_bg2" width="414" height="75"/>
+        <image name="p1_menu_bg" width="414" height="35"/>
+        <image name="splash_newBg" width="750" height="1334"/>
+    </resources>
+</document>

@@ -1,0 +1,64 @@
+//
+//  LukFookPrefixHeader.pch
+//  LukFook
+//
+//  Created by lin on 16/1/22.
+//  Copyright © 2016年 JimmyLin. All rights reserved.
+//
+
+#ifndef LukFookPrefixHeader_pch
+#define LukFookPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* LukFookPrefixHeader_pch */
+
+/*
+ 
+ 主页面 : MainViewController
+ 产品系列: ProductsViewController   -> ProductDetailViewController
+                                    -> 产品系列分类列表: ProductsSeriesViewController
+ 分店资料: AddressViewController    -> 分店详情页面: ShopDetailViewController
+                                   -> 所有地区分店: AllShopInfoViewController   -> 各省份分店: AreaShopInfoViewController
+ 关于我们: AboutUsViewController
+ 饰金计算机: CalculatorController
+ 
+ 官网: LukFookWebViewController
+ 
+ 产品列表数据处理: ProductsDataManager
+ 产品列表的model: ProductsListModel
+ 
+ 产品详情页面数据处理: ProductDetailDataManager
+
+ 分享成功,失败的管理类: ShareManager
+ 
+ 语言切换页面: LanguageSelectedViewController
+ 语言切换管理类: NSString+showLanguageValue
+ 
+ */
+
+#import "NSString+showLanguageValue.h"
+#import "MBProgressHUD.h"
+#import "UIBarButtonItem+Custom.h"
+#import "Reachability.h"
+#import <HexColors/HexColor.h>
+
+// 屏幕宽度,高度
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+// 当前视图的宽度,高度
+#define VIEWWIDTH (self.view.bounds.size.width)
+#define VIEWHEIGHT (self.view.bounds.size.height)
+// 颜色
+#define RGBCOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+
+//#define PRODUCTION @"PRODUCTION";
+#ifdef PRODUCTION
+#define LFAPI @"http://lukfook.sinodynamic.com/"
+
+#else
+#define LFAPI @"http://202.82.223.213/"
+
+#endif
+
